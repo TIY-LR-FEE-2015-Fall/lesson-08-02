@@ -5,6 +5,8 @@ module('Unit | Helper | format name');
 
 // Replace this with your real tests.
 test('it works', function(assert) {
-  let result = formatName(42);
+  let result = formatName([
+    {firstName: 'Tom', lastName: 'Dale'}
+  ]);
   assert.ok(result);
 });
