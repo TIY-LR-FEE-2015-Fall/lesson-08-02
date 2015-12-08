@@ -5,6 +5,9 @@ export default Ember.Route.extend({
     return {
       firstName: 'Ryan',
       lastName: 'Tablada',
+
+      dollars: 10,
+      change: 8,
     };
   },
 });
